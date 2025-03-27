@@ -1,12 +1,30 @@
-# React + Vite
+# Global Groupware Solutions Limited Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This is a React-based web application that provides user authentication and management functionalities. Users can log in, view a paginated list of users, edit user details, and delete users. The app is built using React, React Router, and the Fetch API to interact with a mock API.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication**: Login using email and password.
+- **User List**: Fetch and display users with pagination.
+- **Edit User**: Edit user details (name and email).
+- **Delete User**: Delete users from the list.
+- **Navigation**: Uses React Router for navigation.
+- **Responsive UI**: Tailwind CSS.
+- **Error Handling**: Displays success and error messages.
+- **Local Storage Persistence**: Stores authentication token for session management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- React Router
+- Tailwind CSS
+- Fetch API
 
-## Expanding the ESLint configuration
+## API Endpoints
+- **Login**: `POST https://reqres.in/api/login`
+- **Get Users**: `GET https://reqres.in/api/users?page=1`
+- **Update User**: `PUT https://reqres.in/api/users/{id}`
+- **Delete User**: `DELETE https://reqres.in/api/users/{id}`
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Hosted Version
+https://global-groupware-assignment-two.vercel.app/
+
